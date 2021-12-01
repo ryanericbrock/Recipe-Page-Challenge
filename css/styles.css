@@ -1,0 +1,93 @@
+body {
+  margin: 0 15%;
+  text-align: left;
+}
+
+label {
+  margin-left: 18px;
+}
+
+input {
+  margin-left: -18px;
+}
+
+.dots, .icons {
+  float: left;
+}
+
+.dots {
+  margin: 10px;
+}
+
+.icons {
+  margin: 20px;
+}
+
+.number {
+  text-align: center;
+  float: left;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: orange;
+  color: white;
+  border-radius: 20%;
+  padding-top: 5px;
+}
+
+.instruction, .description {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.cheesecake-image {
+  width: 100%;
+  margin: 20px 0 50px;
+}
+
+.recipe {
+  padding-right: 15%;
+}
+
+.first {
+  color: orange;
+}
+
+.overview-label {
+  color: gray;
+  margin: 20px 0 0;
+}
+
+.overview {
+  padding: 20%;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.subhead {
+  margin: 20px 0;
+}
+
+@media (max-width: 767px) {
+  body {
+    margin: 0 3%;
+  }
+
+  .overview-label {
+    margin: 0;
+  }
+
+  .overview {
+    text-align: left;
+    padding: 3%;
+    font-size: .7rem;
+  }
+
+  .icons {
+    margin: 3px;
+    font-size: 1.7rem;
+  }
+}
