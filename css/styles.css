@@ -11,6 +11,10 @@ input {
   margin-left: -18px;
 }
 
+a {
+  color: gray;
+}
+
 .dots, .icons {
   float: left;
 }
@@ -59,7 +63,8 @@ input {
 }
 
 .overview {
-  padding: 20%;
+  padding: 15%;
+  font-size: 0.75rem;
 }
 
 .footer {
@@ -71,7 +76,11 @@ input {
   margin: 20px 0;
 }
 
-@media (max-width: 767px) {
+.sub-subhead {
+  font-weight: normal;
+}
+
+@media (max-width: 991px) {
   body {
     margin: 0 3%;
   }
