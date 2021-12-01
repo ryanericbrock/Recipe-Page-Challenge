@@ -50,6 +50,7 @@
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+- [Font Awesome](https://fontawesome.com/)
 
 ## Features
 
